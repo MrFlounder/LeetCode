@@ -2,6 +2,7 @@ import java.util.*;
 
 /**
  * Created by guangshuozang on 8/24/15.
+ * Time complexity O(N)
  */
 public class TwoSum2 {
     public int[] twoSum(int[] nums, int target) {
