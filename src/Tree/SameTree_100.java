@@ -4,6 +4,8 @@ import util.TreeNode;
 
 /**
  * Created by guangshuozang on 8/30/15.
+ * Visit every node
+ * Time O(N)
  */
 public class SameTree_100 {
     public boolean isSameTree(TreeNode p, TreeNode q) {
