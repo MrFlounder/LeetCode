@@ -5,7 +5,7 @@ import util.ListNode;
  */
 public class SwapNodesInPairs {
     public ListNode swapPairs(ListNode head) {
-        ListNode dummy = new ListNode(0);
+        ListNode dummy = new ListNode();
         dummy.next = head;
         ListNode cur = dummy;
         ListNode l1 = null, l2 = null;
