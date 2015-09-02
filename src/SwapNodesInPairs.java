@@ -5,11 +5,10 @@ import util.ListNode;
  */
 public class SwapNodesInPairs {
     public ListNode swapPairs(ListNode head) {
-        ListNode dummy = new ListNode();
+        ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode cur = dummy;
         ListNode l1 = null, l2 = null;
-
         while(cur.next != null && cur.next.next != null){
             l1 = cur.next;
             l2 = cur.next.next;
