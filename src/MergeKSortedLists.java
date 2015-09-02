@@ -10,14 +10,14 @@ public class MergeKSortedLists {
         ListNode longerList = lists[0];
         boolean[] isEmpty = new boolean[lists.length];
 
-        ListNode temp = new ListNode();
+        ListNode temp = new ListNode(0);
         for(int i=0;i<lists.length;i++){
             //***
             if(lists[i]==null)
                 isEmpty[i]=true;
             if(!isEmpty[i]){
                 temp = lists[i];
-                temp.next = new ListNode();
+                temp.next = new ListNode(0);
                 temp = temp.next;
                 lists[i]=lists[i].next;
             }
