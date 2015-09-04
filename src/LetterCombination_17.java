@@ -5,7 +5,7 @@ import java.util.Vector;
 /**
  * Created by guangshuozang on 8/29/15.
  */
-public class LetterCombination {
+public class LetterCombination_17 {
     public List<String> letterCombinations(String digits) {
         String[] charmap = {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         // LinkedList<String> result = new LinkedList<String>();
