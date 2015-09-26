@@ -15,5 +15,6 @@ public class ClimbingStairs_70 {
             min2=result;
         }
         return result;
+        
     }
 }
