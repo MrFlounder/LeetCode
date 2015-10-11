@@ -1,4 +1,4 @@
-package HeapMath;
+package HeapMathDP;
 
 /**
  * Created by guangshuozang on 10/10/15.
