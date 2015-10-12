@@ -13,11 +13,17 @@ public class WordPattern_290 {
         Hashtable<Character,String> table = new Hashtable<Character,String>();
         for(int i=0;i<pattern.length();i++){
             if(table.containsKey(pattern.charAt(i))){
-                if(table.get(pattern.charAt(i))!=words[i])
+                if(!table.get(pattern.charAt(i)).equals(words[i]))
                     return false;
+            }else if(table.containsValue(words[i]))
+                return false;
+            else
                 table.put(pattern.charAt(i),words[i]);
-            }
         }
         return true;
+    }
+    public static void main(String arg[]){
+        WordPattern_290 ins = new WordPattern_290();
+        ins.wordPattern("abba","dog cat cat dog");
     }
 }
