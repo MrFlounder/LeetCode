@@ -38,7 +38,7 @@ public class MinWindowSubString_76 {
             while(map.get(head)<0){
                 queue.poll(); // give up the position
                 map.put(head,map.get(head)+1); // update map make sure all values >=0
-                head=S.charAt(queue.peek());
+                head=S.charAt(queue.peek());;
             }
 
             if (left==0){
