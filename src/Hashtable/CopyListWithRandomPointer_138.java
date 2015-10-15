@@ -12,7 +12,7 @@ public class CopyListWithRandomPointer_138 {
         RandomListNode xHead = new RandomListNode(0);
         RandomListNode x = new RandomListNode(0);
         xHead.next = x;
-        //Do the same thing as copy regular linked list ==> Get entire list B ready ahead of time
+        //Step1: Copy as if A is regular linked list ==> Get entire list B ready ahead of time
         while(f!=null){
             x.label = f.label;
             f = f.next;
@@ -21,7 +21,7 @@ public class CopyListWithRandomPointer_138 {
                 x = x.next;
             }
         }
-        //
+        //Step2: Set all the random pointers
         f = head;
         x = xHead.next;
         while(f!=null){
