@@ -9,7 +9,7 @@ import java.util.Map;
 public class UniqueWordAbbr_288 {
     Map<String, String> map = new HashMap<>();
 
-    public ValidWordAbbr(String[] dictionary) {
+    public void ValidWordAbbr_288(String[] dictionary) {
         for (String dic : dictionary) {
             String key = getKey(dic);
             if (map.containsKey(key)) {
