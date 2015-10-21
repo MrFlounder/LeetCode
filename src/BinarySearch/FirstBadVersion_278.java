@@ -13,5 +13,7 @@ public class FirstBadVersion_278 {
         }
         return start;
     }
-    public boolean isBadVersion(int i){}
+    public boolean isBadVersion(int i){
+        return true;
+    }
 }
