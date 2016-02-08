@@ -29,6 +29,9 @@ public class WordSearch_79 {
                 ||helper(board,x-1,y,p+1,word,visited);
         visited[x][y] = false;
 
+        String s;
+
+
         return flag;
     }
     public static void main(String arg[]){
