@@ -7,7 +7,7 @@ import java.util.HashMap;
  */
 public class UniqueWordAbbreviation_288 {
     HashMap<String, String> map;
-    public ValidWordAbbr(String[] dictionary) {
+    public UniqueWordAbbreviation_288(String[] dictionary) {
         map = new HashMap<String, String>();
         for(String str:dictionary){
             String key = getKey(str);
