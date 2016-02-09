@@ -23,14 +23,14 @@ public class PeekingIterator_284 {
 
     // hasNext() and next() should behave the same as in the Iterator interface.
     // Override them if needed.
-    @Override
+
     public Integer next() {
         Integer res = next;
         next = iter.hasNext() ? iter.next() : null;
         return res;
     }
 
-    @Override
+
     public boolean hasNext() {
         return next != null;
     }
