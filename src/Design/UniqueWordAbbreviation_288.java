@@ -32,4 +32,6 @@ public class UniqueWordAbbreviation_288 {
         if(str.length()<=2) return str;
         return str.charAt(0)+Integer.toString(str.length()-2)+str.charAt(str.length()-1);
     }
+
+
 }
