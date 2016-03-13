@@ -7,7 +7,7 @@ public class Practice {
     public void twoSum(int[] nums, int target) {
 
     Hashtable<Integer, Integer> table = new Hashtable<Integer, Integer>();
-        Character.isLetterOrDigit();
+
     }
 
 }
